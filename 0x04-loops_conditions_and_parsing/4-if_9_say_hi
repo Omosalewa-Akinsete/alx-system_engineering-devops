@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script uses the while loop and the if statement to display "Best School" 10 times
+# This script uses the while loop and the if statement to display "Best School" 10 times, but for the 9th iteration, displays "Best School" and then "Hi" on a new line
 counter=0
 while [ "$counter" -lt 10 ];
 do
