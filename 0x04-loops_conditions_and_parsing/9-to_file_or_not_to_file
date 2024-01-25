@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script uses the if and else, should check if the file exist and print if the file exists "school file exists and if the file does not exist "school file does not exist", If the file exists and print if the file is empty "school file is empty", if the file is not empty "school file is not empty", if the file is a regular file "school is a regular file and if the file is not a regualr file "(nothing)"
+# This script gives information about the "school" file and uses the if and else, should check if the file exist and print if the file exists "school file exists and if the file does not exist "school file does not exist", If the file exists and print if the file is empty "school file is empty", if the file is not empty "school file is not empty", if the file is a regular file "school is a regular file and if the file is not a regualr file "(nothing)"
 file="school"
 if [ -e "$file" ];
 then
