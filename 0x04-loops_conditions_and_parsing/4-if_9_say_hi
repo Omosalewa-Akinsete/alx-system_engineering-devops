@@ -10,6 +10,5 @@ then
 	else
 	echo "Best School"
 	fi
-
 	((counter++))
 done
