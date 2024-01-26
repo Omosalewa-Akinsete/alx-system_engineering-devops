@@ -1,11 +1,3 @@
 #!/usr/bin/env bash
 # This script must not use "kill" and that stops "4-to_infinity_and_beyond" process
-process_name="4-to_infinity_and_beyond"
-pid=$(pgrep -f "$process_name")
-if [ -n "$pid" ];
-then
-	echo "Stopping $process_name with PID $pid"
-	kill -TERM "$pid"
-else
-	echo "$process_name is not currently running"
-fi 
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
