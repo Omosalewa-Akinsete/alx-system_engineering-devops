@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script cannot use "ps", for the first iteration "bash" PID is "4404" and that the "3-show_your_bash_pid_made_easy" script PID is "4555", for the second iteration "bash" PID is "4404" and that the "3-show_your_bash_pid_made_easy"script PID is "4557" and displays the PID, along with the process name, of processes whose name contain the word "bash"
+echo "PID PROCESS NAME"
+pgrep -f bash | while read -r pid;
+do
+	process_name=$(ps -o comm= -p "$pid")
+	echo "$pid $process_name"
+done
