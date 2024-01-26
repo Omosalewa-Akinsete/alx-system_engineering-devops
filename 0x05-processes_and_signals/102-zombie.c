@@ -5,7 +5,7 @@
 #include <sys/wait.h>
 
 /**
- * infinite_while - Creates an infinite loop
+ * infinite_while - Run infinitif
  *
  * Return: Always 0
  */
@@ -25,26 +25,22 @@ int infinite_while(void)
  */
 int main(void)
 {
-	pid_t zombie pid;
-	int i;
+	pid_t pid;
+	chat count = 0;
 
-	for (i = 0; i < 5; i++)
+	while (count < 5)
 	{
-		zombie_pid = fork();
-
-		if (zombie_pid == -1)
+		pid = fork();
+		if (pid > 0)
 		{
-			perror("fork");
-			exit(EXIT_FAILURE);
+			printf("Zombie process created , PID: %d\n", pid);
+			sleep(1);
+			count++;
 		}
-		else if (zombie_pid == 0)
-		{
-			printf("Zombie process created, PID: %d\n", getpid());
-			exit(EXIT_SUCCESS);
-		}
+		else
+			exit(0);
 	}
 
 	infinite_while();
-
-	return (0);
+	return (EXIT_SUCCESS);
 }
