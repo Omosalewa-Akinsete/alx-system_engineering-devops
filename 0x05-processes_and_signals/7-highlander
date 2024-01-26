@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script that makes a copy of the "6-stop_me_if_you_can" script, name it "67-stop_me_if_you_can", that kills the "7-highlander" process instead of the "4-to_infinity_and_beyond" one and displays "To infinity and beyond" indefinitely, with a "sleep 2" in between each iteration, "I am invincible!" when receiving a "SIGTERM" signal
+process_name="7-highlander"
+if pgrep -f "$process_name" > /dev/null;
+then
+	echo "Stopping $process_name"
+	pkill -f "$process_name"
+else
+	echo "$process_name is not currently running"
+fi
