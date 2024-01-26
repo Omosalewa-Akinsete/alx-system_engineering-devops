@@ -1,9 +1,3 @@
 #!/usr/bin/env bash
 # This script cannot use "kill" or "killall" that stops "4-to_infinity_and_beyond" process
-if pgrep -f "$process_name" > /dev/null;
-then
-	echo "Stopping $process_name"
-	pkill -f "$process_name"
-else
-	echo "$process_name is not currently running"
-fi
+pkill -f 4-to_infinity_and_beyond
