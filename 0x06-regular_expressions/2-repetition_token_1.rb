@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-# This script that accepts one argument and pass it to a regular expression matching method
+# This script has the regular expression that will match the above cases that accepts one argument and pass it to a regular expression matching method
 puts ARGV[0].scan(/hb?tn/).join
