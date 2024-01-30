@@ -17,7 +17,7 @@ unless File.file?(log_file)
 end
 log_lines = File.readlines(log_file)
 log_lines.each do |line|
-  if line.include?('SMS [from:') && line.include?('[to:') && line.include?('[flags:')
+  if line.include?('SMS [from: ') && line.include?('[to: ') && line.include?('[flags: ')
     puts extract_textme_info(line)
   end
 end
