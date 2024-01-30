@@ -11,3 +11,5 @@ This repository contains projects on System engineering and DevOps - Bash
 4. 0x04. Loops, conditions and parsing
 
 5. 0x05. Processes and signals
+
+6. 0x06. Regular expression
