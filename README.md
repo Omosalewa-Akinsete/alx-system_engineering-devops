@@ -13,3 +13,7 @@ This repository contains projects on System engineering and DevOps - Bash
 5. 0x05. Processes and signals
 
 6. 0x06. Regular expression
+
+7. 0x07. Networking basics #0
+
+8. 0x08. Networking basics #1
