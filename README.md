@@ -19,3 +19,5 @@ This repository contains projects on System engineering and DevOps - Bash
 8. 0x08. Networking basics #1
 
 9. 0x09. Web infrastructure design
+
+10. 0x0A. Configuration management
