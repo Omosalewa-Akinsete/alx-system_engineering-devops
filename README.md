@@ -21,3 +21,5 @@ This repository contains projects on System engineering and DevOps - Bash
 9. 0x09. Web infrastructure design
 
 10. 0x0A. Configuration management
+
+11. 0x0B. SSH
