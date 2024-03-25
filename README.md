@@ -23,3 +23,7 @@ This repository contains projects on System engineering and DevOps - Bash
 10. 0x0A. Configuration management
 
 11. 0x0B. SSH
+
+12. 0x0C. Web server
+
+13. 0x0D. Web stack debugging #0
