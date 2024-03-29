@@ -27,3 +27,5 @@ This repository contains projects on System engineering and DevOps - Bash
 12. 0x0C. Web server
 
 13. 0x0D. Web stack debugging #0
+
+14. 0x0F. Load balancer
