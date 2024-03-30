@@ -1,28 +1,15 @@
 # Creating a custom HTTP header response, but with Puppet
-exec { 'update':
-  provider => shell,
-  command  => 'sudo apt-get -y update',
-  before   => Exec['install Nginx'],
+exec {'update':
+  command => '/usr/bin/apt-get update',
 }
-
-exec { 'install Nginx':
-  provider => shell,
-  command  => 'sudo apt-get -y install nginx',
-  before   => Exec['add_header'],
+-> package {'nginx':
+  ensure => 'present',
 }
-
-$hostname = $facts['hostname']
-
-$add_header_command = 'sudo sed -i "s/include \/etc\/nginx\/sites-enabled\/\*;/include \/etc\/nginx\/sites-enabled\/\*;    \n\tadd_header X-Served-By \"$HOSTNAME\";/" /etc/nginx/nginx.conf'
-
-exec { 'add_header':
-  provider    => shell,
-  environment => ["HOSTNAME=${hostname}"],
-  command     => $add_header_command,
-  before      => Exec['restart Nginx'],
+-> file_line { 'http_header':
+  path  => '/etc/nginx/nginx.conf',
+  match => 'http {',
+  line  => "http {\n\tadd_header X-Served-By \"${hostname}\";",
 }
-
-exec { 'restart Nginx':
-  provider => shell,
-  command  => 'sudo service nginx restart',
+-> exec {'run':
+  command => '/usr/sbin/service nginx restart',
 }
