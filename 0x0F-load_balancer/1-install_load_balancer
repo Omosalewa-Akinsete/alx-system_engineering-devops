@@ -17,6 +17,6 @@ backend apache_webservers
     server 527320-web-02        34.201.61.187:80 check
 "
 config_file="/etc/haproxy/haproxy.cfg"
-echo -e "\n$new_config" | sudo tee -a "$config_file" >> / dev/null
+echo -e "$new_config" | sudo tee -a "$config_file" >> /dev/null
 sudo service haproxy restart
 sudo systemctl enable haproxy
