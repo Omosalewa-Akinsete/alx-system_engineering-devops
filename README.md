@@ -31,3 +31,5 @@ This repository contains projects on System engineering and DevOps - Bash
 14. 0x0F. Load balancer
 
 15. 0x0E. Web stack debugging #1
+
+16. 0x10. HTTPS SSL
