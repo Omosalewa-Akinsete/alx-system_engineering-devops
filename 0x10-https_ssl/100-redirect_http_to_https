@@ -43,7 +43,7 @@ frontend omosalewa-frontend
 frontend omosalewa-frontend-https
         bind *:443 ssl crt /etc/haproxy/certs/www.omosalewaakinsete.tech.pem
         http-request set-header X-Forwarded-Proto https
-        default_backend omosalewa
+        default_backend omosalewa-backend
 
 backend omosalewa-backend
         balance roundrobin
