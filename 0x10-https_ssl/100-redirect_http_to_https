@@ -47,5 +47,5 @@ frontend omosalewa-frontend-https
 
 backend omosalewa-backend
         balance roundrobin
-    	server 527320-web-01        100.25.13.203:80 check
-    	server 527320-web-02        34.201.61.187:80 check
+    	server 527320-web-01 100.25.13.203:80 check
+    	server 527320-web-02 34.201.61.187:80 check
