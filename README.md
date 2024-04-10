@@ -33,3 +33,5 @@ This repository contains projects on System engineering and DevOps - Bash
 15. 0x0E. Web stack debugging #1
 
 16. 0x10. HTTPS SSL
+
+17. 0x11. What happens when you type google.com in your browser and press Enter
