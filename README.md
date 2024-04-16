@@ -39,3 +39,5 @@ This repository contains projects on System engineering and DevOps - Bash
 18. 0x13. Firewall
 
 19. 0x12. Web stack debugging #2
+
+20. 0x14. MySQL
