@@ -37,3 +37,5 @@ This repository contains projects on System engineering and DevOps - Bash
 17. 0x11. What happens when you type google.com in your browser and press Enter
 
 18. 0x13. Firewall
+
+19. 0x12. Web stack debugging #2
