@@ -47,3 +47,7 @@ This repository contains projects on System engineering and DevOps - Bash
 22. 0x16. API advanced
 
 23. 0x17. Web stack debugging #3
+
+24. 0x19. Postmortem
+
+25. 0x18. Webstack monitoring
