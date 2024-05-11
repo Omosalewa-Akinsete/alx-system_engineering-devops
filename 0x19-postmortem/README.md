@@ -27,6 +27,7 @@ Incident Resolution:
 3. By 2:45 AM, all web stack services were fully operational.
 
 *Root Cause and Resolution:*
+
 Root Cause:
 1. The load balancer misconfiguration led to an imbalance in traffic distribution, causing a bottleneck and subsequent service interruption.
 
@@ -35,6 +36,7 @@ Resolution:
 2. Additional monitoring checks were implemented to detect any future deviations in load balancer behaviour.
 
 *Corrective and Preventative Measures:*
+
 Improvements:
 1. Strengthen load balancing configuration management processes to avoid misconfigurations.
 2. Enhance monitoring capabilities to proactively identify load balancer anomalies and traffic distribution issues.
@@ -79,6 +81,7 @@ Incident Resolution:
 3. By 2:45 AM, the audience erupted in applause as the website reappeared, leaving them in awe of our mystical resurrection.
 
 *Root Cause and Resolution:*
+
 Root Cause:
 1. The vanishing act was orchestrated by a mischievous load balancer, who, with a misconfiguration, created an imbalance in traffic distribution, rendering the website invisible to all mortals.
 
@@ -87,6 +90,7 @@ Resolution:
 2. To prevent future magical mishaps, we fortified our monitoring enchantments ensuring we are alerted to any future attempts by the load balancer to dabble in the dark arts.
 
 *Corrective and Preventive Measures:*
+
 Improvements:
 1. Strengthen our magical load balancer configuration practices to prevent further magical misconfigurations.
 2. Enhance our mystical monitoring capabilities to detect any anomalies in the load balancer's behaviour and thwart its mischievous intentions.
