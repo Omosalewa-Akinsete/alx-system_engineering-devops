@@ -53,3 +53,5 @@ This repository contains projects on System engineering and DevOps - Bash
 25. 0x18. Webstack monitoring
 
 26. 0x1A. Application server
+
+27. 0x1B. Web stack debugging #4
