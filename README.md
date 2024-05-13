@@ -51,3 +51,5 @@ This repository contains projects on System engineering and DevOps - Bash
 24. 0x19. Postmortem
 
 25. 0x18. Webstack monitoring
+
+26. 0x1A. Application server
