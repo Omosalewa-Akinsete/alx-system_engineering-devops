@@ -22,4 +22,3 @@ SyslogIdentifier=gunicorn
 [Install]
 # Enable the service for multi-user.target
 WantedBy=multi-user.target
-11
