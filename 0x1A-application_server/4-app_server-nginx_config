@@ -1,3 +1,4 @@
+# Let’s serve what you built for AirBnB clone v3 - RESTful API on web-01
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
